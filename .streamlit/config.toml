@@ -1,0 +1,9 @@
+[theme]
+primaryColor="#00462A"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#FFFDF1"
+textColor="#00462A"
+font="Noto Sans KR"
+
+[server]
+fileWatcherType = "none"
