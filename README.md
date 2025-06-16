@@ -2,6 +2,8 @@
 
 ### 프로젝트 설명 ###
 
+* 데이터: arxiv로부터 크롤링 (paperId, title, abstract, year)
+  
 <img width="1049" alt="Image" src="https://github.com/user-attachments/assets/dced3165-07fc-4780-8998-576dd03650c8" />
 <img width="1045" alt="Image" src="https://github.com/user-attachments/assets/699b3339-1a18-4ea4-8be2-d1547c7d0671" />
 <img width="1045" alt="Image" src="https://github.com/user-attachments/assets/81d5889a-99de-4cce-a9e9-e6985d7718da" />
@@ -23,6 +25,8 @@
 ```bash
 pip install -r requirements.txt
 ```
+
+* 처음 실행은 모델을 로드해와야 하기 때문에 1분 정도 걸릴 수 있음. 
 
 ```bash
 sh run.sh
