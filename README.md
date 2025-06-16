@@ -1,4 +1,4 @@
-## Paper Recommendation System ##
+## 📄 Paper Recommendation System ##
 
 ### 프로젝트 설명 ###
 
