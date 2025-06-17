@@ -154,12 +154,13 @@ def main():
      
      init_session_state() 
      sidebars()
-     paper_df, user_df = load_data()
-     model, dim = load_model()
+     with st.spinner("데이터와 모델을 로드하는 중이에요! 잠시만 기다려주세요 :)"):
+          paper_df, user_df = load_data()
+          model, dim = load_model()
+     
      
      st.title("🚀 Paper Recommendation Engine")
      page = st.session_state.current_page
-     
      if page == 'welcome':
           welcome_page()
      elif page == 'login':
