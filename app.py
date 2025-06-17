@@ -109,6 +109,7 @@ def welcome_page():
           st.image('img/logo.png', width=250)
      if st.button('로그인'):
           st.session_state.current_page = 'login'
+          st.rerun()
 
 def login_page():
      
@@ -120,6 +121,7 @@ def login_page():
                st.session_state.user_id = int(user_id)
                st.success("로그인 성공 👋")
                st.session_state.current_page = 'retrieve'
+               st.rerun()
           else:
                st.error("로그인 실패 ❌ 올바른 ID를 입력하세요 (1-5)")
                
