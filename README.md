@@ -14,6 +14,8 @@
 
 ### Demo by Streamlit ###
 
+### [Demo URL](http://localhost:8501/) ###
+
 <img width="1688" alt="Image" src="https://github.com/user-attachments/assets/16daadbb-f24f-4e73-8fae-9e992aa65936" />
 <img width="1696" alt="Image" src="https://github.com/user-attachments/assets/3f60998b-a2e4-493e-8ebb-b2d9e3bf14b9" />
 <img width="1693" alt="Image" src="https://github.com/user-attachments/assets/82438fc8-b963-43f5-a65c-868aff0b3d20" />
@@ -31,4 +33,3 @@ pip install -r requirements.txt
 ```bash
 sh run.sh
 ```
-
